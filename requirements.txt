@@ -1,0 +1,8 @@
+scikit-learn
+pandas
+numpy
+pyarrow
+lightgbm
+#catboost
+numerapi
+python-dotenv
