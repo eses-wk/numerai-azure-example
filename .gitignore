@@ -1,8 +1,9 @@
 # Byte-compiled / optimized / DLL files
-__pycache__
+__pycache__/
 .pyc
 
 # API secrets and environment variables
 .env
 .python_packages
 .venv
+
