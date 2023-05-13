@@ -55,13 +55,13 @@ NUMERAI_SECRET_KEY=XXXXXX
   - Don't forget the ```.```
   ![docker build](img/docker_build.jpg)
 
-#### Step 2.2: Test submission Docker image  <a name="step2.2"></a>
+### Step 2.2: Test submission Docker image  <a name="step2.2"></a>
 
 - Test your Docker image locally ```docker run -t <YOUR_REGISTRY_HOST>/<YOUR_REGISTRY_NAME>[:<version_tag>]```, check if your submission is successful 
   - Note: set up Numerai API keys in an ```.env``` file in your directory or declear it as ```ENV NUMERAI_PUBLIC_ID=<YOUR_PUBLIC_ID>```,```ENV NUMERAI_SECRET_KEY=<YOUR_SECRET_KEY>```in your Dockerfile
   ![docker run](img/docker_run.jpg)
 
-#### Step 2.3: Push submission Docker image  <a name="step2.3"></a>
+### Step 2.3: Push submission Docker image  <a name="step2.3"></a>
 
 - Push your Docker image with this command ```docker push <YOUR_REGISTRY_HOST>/<YOUR_REGISTRY_NAME>[:<version_tag>]```
   ![docker push](img/docker_push.png)
