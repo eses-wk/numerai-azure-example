@@ -5,3 +5,15 @@
 __pycache__
 .pyc
 
+# Azure trigger function
+/azure_trigger_function
+.vscode/
+
+# Data
+/data
+
+/img
+
+.gitignore
+
+/other

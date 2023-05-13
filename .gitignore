@@ -7,3 +7,6 @@ __pycache__/
 .python_packages
 .venv
 
+
+# Data from Numerai
+data/
