@@ -11,7 +11,7 @@ Example for **daily Numerai submission on Azure cloud** ☁️☁️. Numerai da
 
 # Architecture
 ![Pipeline photo](img/numerai-azure-deploy.png)
-
+![Pipeline photo](img/numerai_azure_with_num.jpg)
 # Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Docker Hub account](https://hub.docker.com/) (or any other container registry)
@@ -164,8 +164,8 @@ If you have other any question, feel free to **raise an issue** in this repo
   - Solution:
   ![Connect WSL to Docker](img/connection_to_docker_desktop.png)
 - Cost for using the above solution
-<img src="img/azure_cost.jpg"  width="500" height="300">
-<img src="img/cost_estimate.jpg"  width="500" height="300">
+<img src="img/azure_cost.jpg"  width="1100" height="600">
+<img src="img/cost_estimate.jpg"  width="600" height="350">
 
 
 # Reference
