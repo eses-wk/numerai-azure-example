@@ -10,7 +10,6 @@ Example for **daily Numerai submission on Azure cloud** ☁️☁️. Numerai da
 - **Cost**: <=$1-5 USD per month
 
 # Architecture
-![Pipeline photo](img/numerai-azure-deploy.png)
 ![Pipeline photo](img/numerai_azure_with_num.jpg)
 # Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
