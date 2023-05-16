@@ -1,4 +1,4 @@
-# Numerai Azure Submission Example
+# Numerai <> Azure Daily Submission Example
 # Background
 Example for **daily Numerai submission on Azure cloud** ☁️☁️. Numerai daily submission window is only 1 hour, and opening time varies. **Staying up late to submit prediction is dumb…** Let's automate it on Azure, as low as <=$1 USD per month.
 - **Suitable for**:
@@ -6,7 +6,7 @@ Example for **daily Numerai submission on Azure cloud** ☁️☁️. Numerai da
   2. Large compute resource required (large RAM)
   3. Managing multiple models at once
 
-- **Set-up time**: ~1-1.5 hour
+- **Set-up time**: 1-1.5 hour
 - **Cost**: <=$1-5 USD per month
 
 # Architecture
@@ -158,16 +158,16 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
 # ***Congrats! Your daily submission pipeline is set-up!🥳🎉*** You can now enjoy your sleep :)
 
-If you have other any question, feel free to **raise an issue** in this repo
+If you have other any question, feel free to [**raise an issue**](https://github.com/eses-wk/numerai-azure-example/issues)
 
 # FAQ
 - Cannot connect to Docker Desktop when using Windows Subsystem for Linux (WSL)
   - Solution:
   ![Connect WSL to Docker](img/connection_to_docker_desktop.png)
 - Daily cost for using the above solution
-<img src="img/azure_cost.jpg"  width="1100" height="550">
+  ![Daily Cost](img/azure_cost.jpg)
 - You can find a simple Cost Calculator in this repo ```Azure_cost_estimate.xlsx```
-<img src="img/cost_estimate.jpg"  width="600" height="350">
+  <img src="img/cost_estimate.jpg"  width="600" height="350">
 
 
 # Reference
