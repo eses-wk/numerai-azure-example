@@ -11,6 +11,7 @@ Example for **daily Numerai submission on Azure cloud** ☁️☁️. Numerai da
 
 # Architecture
 <img src="img/numerai_azure_with_num.jpg" alt= "Pipeline Architecture" width="680" height="570">
+
 # Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Docker Hub account](https://hub.docker.com/) (or any other container registry)
@@ -156,7 +157,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 ![Model webhook settings](img/webhook_set.jpg)
   - When you click ```Test```, it might show ```request timeout``` as it takes time for the container instance to run, still, you will see successful submission after 1-2 the container instance finished running. Same for the daily compute trigger email
 
-# ***Congrats! Your daily submission pipeline is set-up!🥳🎉*** You can now enjoy your sleep :)
+# **Congrats! Your daily submission pipeline is set-up!🥳🎉** You can now enjoy your sleep :)
 
 If you have other any question, feel free to [**raise an issue**](https://github.com/eses-wk/numerai-azure-example/issues)
 
@@ -164,15 +165,16 @@ If you have other any question, feel free to [**raise an issue**](https://github
 - Cannot connect to Docker Desktop when using Windows Subsystem for Linux (WSL)
   - Solution:
   ![Connect WSL to Docker](img/connection_to_docker_desktop.png)
-- Daily cost for using the above solution
+- What is the cost for the above example?
+  - <$0.01 USD/day with a 2-min container run, <$1 USD/month
   ![Daily Cost](img/azure_cost.jpg)
-- You can find a simple Cost Calculator in this repo ```Azure_cost_estimate.xlsx```
-  <img src="img/cost_estimate.jpg"  width="600" height="350">
+  - You can find a simple Cost Calculator in this repo ```Azure_cost_estimate.xlsx```
+    <img src="img/cost_estimate.jpg"  width="600" height="350">
 
 
 # Reference
 - [Guide for Azure Container Instance](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-quickstart#create-a-resource-group)
 - [Guide for Azure (HTTP-trigger) Function](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?pivots=programming-language-python&tabs=python-v1%2Cin-process%2Cfunctionsv2)
-- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/)
-- [Numerai-cli](https://github.com/numerai/numerai-cli) for deployment on AWS
-- [Numerai API](https://numerapi.readthedocs.io/en/latest/)
+- [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/): interacting with Azure at ease
+- [Numerai-cli](https://github.com/numerai/numerai-cli): for deployment on AWS
+- [Numerai API](https://numerapi.readthedocs.io/en/latest/): documentation
